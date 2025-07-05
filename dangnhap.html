@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập tài khoản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Trang chủ</a></li>
+                <li><a href="#" class="nav-link">Hỗ trợ</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                <button>Tìm kiếm</button>
+            </div>
+            <ul class="user-actions">
+                <li><a href="dangki.html" class="nav-link">Đăng ký</a></li>
+                <li><a href="dangnhap.html" class="nav-link">Đăng nhập</a></li>
+                <li><a href="#" class="nav-link">Giỏ hàng</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <main class="main-content form-page">
+        <div class="form-container">
+            <h2>Đăng nhập</h2>
+            <form action="#" method="POST" class="auth-form">
+                <div class="form-group">
+                    <label for="username_login">Tên đăng nhập / Email:</label>
+                    <input type="text" id="username_login" name="username_or_email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password_login">Mật khẩu:</label>
+                    <input type="password" id="password_login" name="password" required>
+                </div>
+                <button type="submit" class="submit-btn">Đăng nhập</button>
+                <p class="form-link">Quên mật khẩu? <a href="#">Nhấn vào đây</a></p>
+                <p class="form-link">Chưa có tài khoản? <a href="dangki.html">Đăng ký ngay</a></p>
+            </form>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>Email: tutin2884@email.com</p>
+        <p>Số điện thoại: 0123 456 789</p>
+        <p>Địa chỉ: 624 Đường Âu cơ, Quận Tân Bình, TP.HCM</p>
+        <p>&copy; 2025 Bản quyền thuộc về [Tên cửa hàng của bạn]</p>
+    </footer>
+</body>
+</html>
